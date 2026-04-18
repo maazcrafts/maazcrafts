@@ -13,7 +13,7 @@
 - Basic Programming
 - GUI Development
 - Dsa using C++
-- AI/ML
+- AI/ML Engineering
 - Languages like Java, Python. Supabase or render for Backend  
 
 ---
