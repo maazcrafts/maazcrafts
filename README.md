@@ -10,7 +10,11 @@
 ## 🛠️ Skills (Learning)
 - SQL  
 - DBMS  
-- Basic Programming  
+- Basic Programming
+- GUI Development
+- Dsa using C++
+- AI/ML
+- Languages like Java, Python. Supabase or render for Backend  
 
 ---
 
