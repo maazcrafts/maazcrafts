@@ -178,9 +178,13 @@ IDEA ──→ ARCHITECT ──→ BUILD ──→ TEST ──→ SHIP
 
 <div align="center">
 
-<a href="https://github.com/maazcrafts">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=maazcrafts&bg_color=0d1117&color=f0c94b&line=f0c94b&point=f8fafc&area_color=f0c94b&area=true&hide_border=true&custom_title=MAAZ%20KHAN%20%E2%80%94%20ACTIVITY" width="100%" alt="GitHub contribution activity graph"/>
-</a>
+<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/contribution-activity.svg" width="100%" alt="Maaz Khan GitHub contribution activity"/>
+
+</div>
+
+<div align="center">
+
+<sub>Daily contribution activity · Updated automatically</sub>
 
 </div>
 
