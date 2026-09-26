@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" role="img">
+<title>Maaz Khan — animated developer profile</title>
+<desc>Stylized animated portrait of Maaz Khan with a terminal profile.</desc>
+<defs>
+<clipPath id="p"><rect x="18" y="18" width="410" height="574" rx="18"/></clipPath>
+<linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b97858"/><stop offset="1" stop-color="#754633"/></linearGradient>
+<pattern id="scan" width="4" height="8" patternUnits="userSpaceOnUse"><path d="M0 0H4" stroke="#fff" stroke-opacity=".08"/></pattern>
+<mask id="reveal"><rect width="1180" height="610" fill="black"/><rect x="0" y="-620" width="1180" height="620" fill="white"><animate attributeName="y" from="-620" to="610" dur="2.5s" fill="freeze"/></rect></mask>
+</defs>
+<rect width="1180" height="610" rx="26" fill="#090b0f"/><rect x="1" y="1" width="1178" height="608" rx="25" fill="none" stroke="#252a33"/>
+<g clip-path="url(#p)" mask="url(#reveal)">
+<rect x="18" y="18" width="410" height="574" fill="#11151b"/>
+<!-- shoulders -->
+<path d="M40 592 Q72 515 157 493 L285 493 Q373 514 410 592Z" fill="#253747"/>
+<path d="M98 592 Q120 532 174 507 L260 507 Q322 535 344 592Z" fill="#18232d"/>
+<!-- neck -->
+<path d="M183 435 L273 435 L287 510 Q233 544 169 510Z" fill="url(#skin)"/>
+<!-- face -->
+<path d="M125 205 Q137 112 226 102 Q323 111 337 207 L324 384 Q304 456 229 472 Q153 454 132 382Z" fill="url(#skin)"/>
+<!-- ears -->
+<path d="M126 257 Q91 251 99 313 Q105 342 133 328Z" fill="#925a42"/><path d="M330 257 Q364 251 356 313 Q350 341 327 328Z" fill="#925a42"/>
+<!-- hair mass -->
+<path d="M116 237 Q84 195 119 139 Q105 92 163 105 Q179 47 224 79 Q263 38 292 91 Q349 75 337 138 Q371 160 335 239 L309 205 Q291 153 236 149 Q172 150 142 208Z" fill="#09090b"/>
+<path d="M119 164 Q94 111 151 119 M153 106 Q181 60 208 94 M216 91 Q253 48 279 104 M278 104 Q326 82 323 139" fill="none" stroke="#25262a" stroke-width="12" stroke-linecap="round"/>
+<!-- eyebrows -->
+<path d="M151 252 Q179 235 205 251 M254 251 Q282 235 309 253" fill="none" stroke="#3b241d" stroke-width="11" stroke-linecap="round"/>
+<!-- glasses -->
+<g fill="#090b0f" stroke="#25262a" stroke-width="10">
+<rect x="137" y="256" width="99" height="62" rx="25"/><rect x="243" y="256" width="99" height="62" rx="25"/><path d="M236 277 Q240 268 244 277" fill="none"/>
+</g>
+<path d="M137 276 L118 267 M342 276 L359 267" stroke="#25262a" stroke-width="10" stroke-linecap="round"/>
+<!-- nose -->
+<path d="M235 304 Q220 351 237 359 Q251 363 261 354" fill="none" stroke="#754633" stroke-width="8" stroke-linecap="round"/>
+<!-- moustache + beard -->
+<path d="M194 374 Q229 354 267 375 Q254 397 229 395 Q207 397 194 374Z" fill="#38241e"/>
+<path d="M166 391 Q229 447 294 391 Q285 460 230 470 Q175 458 166 391Z" fill="#38241e" opacity=".82"/>
+<!-- earring -->
+<path d="M121 327 Q121 360 137 366" fill="none" stroke="#c5a36a" stroke-width="6"/>
+<rect x="18" y="18" width="410" height="574" fill="url(#scan)"/>
+</g>
+<rect x="18" y="18" width="410" height="574" rx="18" fill="none" stroke="#303640"/>
+<rect x="18" y="18" width="410" height="3" rx="2" fill="#8aa4c8" opacity="0"><animate attributeName="y" values="18;589;18" dur="5.5s" begin="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.9;0" dur="5.5s" begin="2.6s" repeatCount="indefinite"/></rect>
+<g transform="translate(470 42)" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">
+<text y="0" fill="#9ca3af" font-size="13">maaz@github:~$ ./profile</text><line y1="24" x2="670" y2="24" stroke="#252a33"/>
+<text y="76" fill="#8aa4c8" font-size="15">01</text><text x="38" y="76" fill="#f4f4f0" font-size="15">MAAZ KHAN</text><text x="38" y="104" fill="#9ca3af" font-size="13">Computer Engineering · AI · Software</text>
+<text y="154" fill="#8aa4c8" font-size="15">02</text><text x="38" y="154" fill="#f4f4f0" font-size="15">BUILDING</text><text x="38" y="182" fill="#9ca3af" font-size="13">Aerio · AI Research Assistant</text><text x="38" y="205" fill="#9ca3af" font-size="13">real-time apps · web systems · experiments</text>
+<text y="255" fill="#8aa4c8" font-size="15">03</text><text x="38" y="255" fill="#f4f4f0" font-size="15">STACK</text><text x="38" y="283" fill="#9ca3af" font-size="13">Python · C++ · JavaScript · React · Node.js</text><text x="38" y="306" fill="#9ca3af" font-size="13">Postgres · Git · Linux · Vercel</text>
+<text y="356" fill="#8aa4c8" font-size="15">04</text><text x="38" y="356" fill="#f4f4f0" font-size="15">STATUS</text><circle cx="48" cy="386" r="4" fill="#8aa4c8"><animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/></circle><text x="62" y="391" fill="#9ca3af" font-size="13">open to software / AI opportunities</text>
+<line y1="430" x2="670" y2="430" stroke="#252a33"/><text y="470" fill="#9ca3af" font-size="12">$ echo "build · break · learn · ship"</text><text y="502" fill="#f4f4f0" font-size="12">█<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></text>
+</g><path d="M446 18V592" stroke="#252a33" opacity=".45"/>
+</svg>
