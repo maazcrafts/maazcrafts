@@ -1,0 +1,158 @@
+name: Update GitHub Command Center
+
+on:
+  schedule:
+    - cron: "23 0 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/update-command-center.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  command-center:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch GitHub data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api graphql -f query='
+            query($login:String!) {
+              user(login:$login) {
+                contributionsCollection {
+                  contributionCalendar {
+                    totalContributions
+                    weeks {
+                      contributionDays {
+                        contributionCount
+                        date
+                      }
+                    }
+                  }
+                }
+                repositories(first:100, ownerAffiliations:OWNER, privacy:PUBLIC, isFork:false) {
+                  nodes {
+                    name
+                    languages(first:10, orderBy:{field:SIZE, direction:DESC}) {
+                      edges {
+                        size
+                        node { name color }
+                      }
+                    }
+                  }
+                }
+              }
+            }' -f login=maazcrafts > /tmp/github-data.json
+
+      - name: Generate command center cards
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from collections import defaultdict
+          from datetime import date
+
+          data = json.load(open("/tmp/github-data.json"))["data"]["user"]
+          cal = data["contributionsCollection"]["contributionCalendar"]
+          days = [d for w in cal["weeks"] for d in w["contributionDays"]]
+
+          # ---- Monthly contribution timeline ----
+          monthly = defaultdict(int)
+          for d in days:
+              monthly[d["date"][:7]] += d["contributionCount"]
+
+          months = sorted(monthly.keys())[-13:]
+          if len(months) < 13:
+              months = sorted(monthly.keys())
+          vals = [monthly[m] for m in months]
+          maxv = max(vals or [1])
+
+          W,H = 1200,360
+          left,right,top,bottom = 70,35,55,75
+          chart_w,chart_h = W-left-right,H-top-bottom
+          gap = 18
+          bw = (chart_w - gap*(len(vals)-1))/max(len(vals),1)
+
+          bars=[]
+          labels=[]
+          for i,(m,v) in enumerate(zip(months,vals)):
+              x=left+i*(bw+gap)
+              h=(v/maxv)*chart_h if maxv else 0
+              y=top+chart_h-h
+              bars.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{bw:.1f}" height="{h:.1f}" rx="7" fill="#f0c94b"><title>{m}: {v} contributions</title></rect>')
+              ylab=top+chart_h+25
+              labels.append(f'<text x="{x+bw/2:.1f}" y="{ylab}" text-anchor="middle" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">{m[5:]}/{m[2:4]}</text>')
+
+          grid=[]
+          for frac in (0,.25,.5,.75,1):
+              y=top+chart_h-frac*chart_h
+              grid.append(f'<line x1="{left}" y1="{y:.1f}" x2="{W-right}" y2="{y:.1f}" stroke="#30363d" stroke-width="1"/>')
+
+          total=cal["totalContributions"]
+          timeline=f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}">
+          <rect width="100%" height="100%" rx="14" fill="#0d1117"/>
+          <text x="{left}" y="28" fill="#f0c94b" font-family="Arial,sans-serif" font-size="18" font-weight="700">CONTRIBUTION TIMELINE</text>
+          <text x="{W-right}" y="28" text-anchor="end" fill="#8b949e" font-family="Arial,sans-serif" font-size="13">{total} total contributions</text>
+          {''.join(grid)}
+          {''.join(bars)}
+          {''.join(labels)}
+          <text x="{left}" y="{H-18}" fill="#8b949e" font-family="Arial,sans-serif" font-size="11">MONTH / YEAR</text>
+          </svg>'''
+          Path("assets/command-center-timeline.svg").write_text(timeline)
+
+          # ---- Language composition ----
+          sizes=defaultdict(float)
+          colors={}
+          for repo in data["repositories"]["nodes"]:
+              if not repo: continue
+              for e in repo["languages"]["edges"]:
+                  sizes[e["node"]["name"]] += e["size"]
+                  colors[e["node"]["name"]] = e["node"]["color"] or "#8b949e"
+
+          items=sorted(sizes.items(), key=lambda x:x[1], reverse=True)
+          top=items[:6]
+          other=sum(v for _,v in items[6:])
+          if other:
+              top.append(("Other",other))
+              colors["Other"]="#8b949e"
+
+          total_bytes=sum(v for _,v in top) or 1
+          cx,cy,r=250,180,115
+          circumference=2*3.141592653589793*r
+          segs=[]
+          offset=0
+          legend=[]
+          for name,val in top:
+              pct=val/total_bytes*100
+              length=pct/100*circumference
+              color=colors.get(name,"#8b949e")
+              segs.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{color}" stroke-width="58" stroke-dasharray="{length:.2f} {circumference-length:.2f}" stroke-dashoffset="{-offset:.2f}" transform="rotate(-90 {cx} {cy})"><title>{name}: {pct:.1f}%</title></circle>')
+              offset += length
+          for i,(name,val) in enumerate(top):
+              pct=val/total_bytes*100
+              y=70+i*38
+              legend.append(f'<rect x="500" y="{y-14}" width="16" height="16" rx="2" fill="{colors.get(name,"#8b949e")}"/>')
+              legend.append(f'<text x="526" y="{y}" fill="#c9d1d9" font-family="Arial,sans-serif" font-size="15">{name}</text>')
+              legend.append(f'<text x="790" y="{y}" text-anchor="end" fill="#f0c94b" font-family="Arial,sans-serif" font-size="15" font-weight="700">{pct:.1f}%</text>')
+
+          language=f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360">
+          <rect width="100%" height="100%" rx="14" fill="#0d1117"/>
+          <text x="35" y="32" fill="#f0c94b" font-family="Arial,sans-serif" font-size="18" font-weight="700">TOP LANGUAGES BY REPO</text>
+          {''.join(segs)}
+          <text x="{cx}" y="{cy+5}" text-anchor="middle" fill="#f0c94b" font-family="Arial,sans-serif" font-size="20" font-weight="700">LANG</text>
+          {''.join(legend)}
+          </svg>'''
+          Path("assets/command-center-languages.svg").write_text(language)
+          PY
+
+      - name: Commit generated cards
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "assets/command-center-timeline.svg assets/command-center-languages.svg"
+          message: "Update GitHub command center cards"
