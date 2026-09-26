@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:111827,50:263449,100:111827&text=MAAZ%20KHAN&fontColor=ffffff&fontSize=56&fontAlignY=38&desc=Computer%20Engineering%20%7C%20AI%20%26%20Full-Stack%20Development&descAlignY=60&animation=fadeIn" width="100%" alt="Maaz Khan banner" />
-
 <img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-profile-dark.svg" width="100%" alt="Animated Maaz Khan developer profile" />
 
 
