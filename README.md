@@ -21,57 +21,93 @@ AI / ML &nbsp;•&nbsp; Full-Stack &nbsp;•&nbsp; Real-Time Systems
 
 <div align="center">
 
+<div align="center">
+
 ### `SYSTEM.PROFILE`
 
-**MAAZ KHAN** &nbsp;•&nbsp; **COMPUTER ENGINEERING** &nbsp;•&nbsp; **MUMBAI, INDIA**
+**MAAZ KHAN** &nbsp;·&nbsp; **COMPUTER ENGINEERING** &nbsp;·&nbsp; **MUMBAI, INDIA**
 
 <br/>
 
-<img src="https://img.shields.io/badge/STATUS-LEARNING%20%7C%20BUILDING%20%7C%20SHIPPING-f0c94b?style=for-the-badge&labelColor=111827" alt="Status: Learning Building Shipping"/>
-<img src="https://img.shields.io/badge/FOCUS-AI%20%2F%20ML%20%7C%20FULL--STACK%20%7C%20REAL--TIME-111827?style=for-the-badge&labelColor=111827" alt="Focus: AI ML Full Stack Real Time"/>
+<img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-f0c94b?style=for-the-badge&labelColor=111827" alt="Active development"/>
+<img src="https://img.shields.io/badge/FOCUS-AI%20%2F%20ML%20%20%7C%20FULL--STACK%20%20%7C%20REAL--TIME-111827?style=for-the-badge&labelColor=111827" alt="AI ML Full Stack Real Time"/>
+<img src="https://img.shields.io/badge/MODE-BUILDING-111827?style=for-the-badge&labelColor=111827" alt="Building mode"/>
 
 </div>
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-#### ◼ CORE PROFILE
+### ◼ IDENTITY
 
-| | |
-|---|---|
-| **Role** | Computer Engineering Student |
-| **Location** | Mumbai, India |
-| **Core** | C++ · Python · TypeScript · React |
-| **Backend** | Node.js · PostgreSQL · Socket.IO |
-| **Mobile** | React Native |
-| **Focus** | AI / ML · Real-Time · Systems |
+**ROLE**  
+Computer Engineering Student
+
+**BASE**  
+Mumbai, India
+
+**STATUS**  
+Learning → Building → Shipping
 
 </td>
-<td width="50%" valign="top">
+<td width="34%" valign="top">
 
-#### ◼ CURRENT RUNTIME
+### ◼ ENGINEERING
 
-```text
-[ ONLINE ]
+**LANGUAGES**  
+C++ · Python · JavaScript · TypeScript
 
-BUILD    AERIO
-TYPE     REAL-TIME MESSAGING
-SECURITY END-TO-END ENCRYPTION
-STACK    NODE + POSTGRES + SOCKET.IO
-CLIENT   REACT NATIVE
-MEDIA    GIF + IMAGE + VOICE + FILES
+**FRONTEND**  
+React · React Native
 
-STATE    ACTIVE DEVELOPMENT
-```
+**BACKEND**  
+Node.js · PostgreSQL · Socket.IO
+
+</td>
+<td width="33%" valign="top">
+
+### ◼ CURRENT BUILD
+
+**PROJECT**  
+AERIO
+
+**TYPE**  
+Real-Time Messaging
+
+**SECURITY**  
+End-to-End Encryption
+
+**DEPLOY**  
+Vercel · Render
 
 </td>
 </tr>
 </table>
 
-> **MISSION //** Turn ideas into systems that actually work.
->
-> **MODE //** Learn → Build → Test → Ship → Repeat
+<br/>
+
+<div align="center">
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│  MAAZ // BUILD PIPELINE                                     │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│  IDEA  →  ARCHITECT  →  BUILD  →  TEST  →  SHIP             │
+│                                                              │
+│  CURRENT TARGET                                             │
+│  └─ AERIO · REAL-TIME COMMUNICATION                         │
+│                                                              │
+│  PRINCIPLE                                                   │
+│  └─ Turn ideas into systems that actually work.              │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+> **SYSTEM.MODE //** Learn → Build → Test → Ship → Repeat
 
 ---
 
