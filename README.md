@@ -174,28 +174,6 @@ IDEA ──→ ARCHITECT ──→ BUILD ──→ TEST ──→ SHIP
 
 ---
 
-## 🐍 Contribution Snake // LIVE
-
-<div align="center">
-
-<a href="https://github.com/maazcrafts">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake-dark.svg"/>
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake.svg"/>
-<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated GitHub contribution snake"/>
-</picture>
-</a>
-
-<br/><br/>
-
-<code>BUILD → COMMIT → CONTRIBUTE → REPEAT</code>
-<br/>
-<sub>Animated from the GitHub contribution graph · refreshed automatically</sub>
-
-</div>
-
----
-
 ## 🤝 Connect With Me
 
 <div align="center">
