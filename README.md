@@ -174,22 +174,6 @@ IDEA ──→ ARCHITECT ──→ BUILD ──→ TEST ──→ SHIP
 
 ---
 
-## 🟨 Contribution Heatmap
-
-<div align="center">
-
-<a href="https://github.com/maazcrafts">
-<img src="https://ghchart.xqsit94.in/dark:f0c94b/maazcrafts" width="100%" alt="Maaz Khan GitHub contribution heatmap"/>
-</a>
-
-<br/>
-
-<sub><b>BUILD ACTIVITY</b> · 365 DAYS · CONTRIBUTION INTENSITY</sub>
-
-</div>
-
----
-
 ## 🐍 Contribution Snake
 
 <div align="center">
