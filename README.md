@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-profile-dark.svg" width="100%" alt="Animated Maaz Khan developer profile" />
+<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-profile-transition.gif" width="100%" alt="Animated Maaz Khan developer profile" />
 
 
 <a href="https://maaz-portfolio-orpin.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
