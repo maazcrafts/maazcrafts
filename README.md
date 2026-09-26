@@ -180,8 +180,8 @@ IDEA ──→ ARCHITECT ──→ BUILD ──→ TEST ──→ SHIP
 
 <a href="https://github.com/maazcrafts">
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/github-contribution-grid-snake-dark.svg"/>
-<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/github-contribution-grid-snake.svg"/>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake-dark.svg"/>
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake.svg"/>
 <img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated GitHub contribution snake"/>
 </picture>
 </a>
