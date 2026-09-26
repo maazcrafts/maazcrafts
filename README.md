@@ -1,8 +1,16 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-profile-system.svg" width="100%" alt="Maaz Khan profile system with animated portrait and developer information" />
+<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-profile-transition-slow.gif" width="900" alt="Animated Maaz Khan profile portrait" />
 
 <br/><br/>
+
+# MAAZ KHAN
+
+**Computer Engineering Student**
+
+AI / ML &nbsp;•&nbsp; Full-Stack &nbsp;•&nbsp; Real-Time Systems
+
+<br/>
 
 <a href="https://maaz-portfolio-orpin.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 <a href="https://github.com/maazcrafts/Aerio"><img src="https://img.shields.io/badge/AERIO-111827?style=for-the-badge&logo=socketdotio&logoColor=white" alt="Aerio"/></a>
@@ -10,6 +18,21 @@
 <a href="mailto:maazsabirkhan@gmail.com"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 </div>
+
+### `SYSTEM.INFO`
+
+| | |
+|---|---|
+| **Subject** | Maaz Khan |
+| **Role** | Computer Engineering Student |
+| **Origin** | Mumbai, India |
+| **Status** | Learning → Building → Shipping |
+| **Core** | C++ · Python · TypeScript · React |
+| **Backend** | Node.js · PostgreSQL · Socket.IO |
+| **Focus** | AI / ML · Real-Time Systems · Mobile |
+| **Current Build** | **AERIO — Real-Time Messaging** |
+
+> **Current mission:** Turn ideas into systems that actually work.
 
 ---
 
