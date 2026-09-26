@@ -2,6 +2,12 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:111827,50:263449,100:111827&text=MAAZ%20KHAN&fontColor=ffffff&fontSize=56&fontAlignY=38&desc=Computer%20Engineering%20%7C%20AI%20%26%20Full-Stack%20Development&descAlignY=60&animation=fadeIn" width="100%" alt="Maaz Khan banner" />
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-profile-dark.svg" />
+  <img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-profile-light.svg" width="100%" alt="Animated Maaz Khan developer profile" />
+</picture>
+
+
 <a href="https://maaz-portfolio-orpin.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit%20Website-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 <a href="https://linkedin.com/in/khan-maaz-8a3345377"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:maazsabirkhan@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-334155?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
