@@ -83,16 +83,20 @@ AI / ML &nbsp;•&nbsp; Full-Stack &nbsp;•&nbsp; Real-Time Systems
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Command Center
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=maazcrafts&show_icons=true&hide_border=true&theme=transparent&title_color=f0c94b&text_color=cbd5e1&icon_color=f0c94b&include_all_commits=true&rank_icon=github" height="180" alt="GitHub statistics"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maazcrafts&layout=compact&hide_border=true&theme=transparent&title_color=f0c94b&text_color=cbd5e1&langs_count=8" height="180" alt="Languages used"/>
+<a href="https://github.com/maazcrafts">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=maazcrafts&theme=github_dark&animation=load&duration=3&title_color=f0c94b&icon_color=f0c94b&chart_color=f0c94b" width="49%" alt="GitHub statistics"/>
+</a>
+<a href="https://github.com/maazcrafts">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=maazcrafts&theme=github_dark&animation=load&duration=3&title_color=f0c94b&icon_color=f0c94b&chart_color=f0c94b" width="49%" alt="Languages used by repositories"/>
+</a>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=maazcrafts&theme=transparent&hide_border=true&ring=f0c94b&fire=f0c94b&currStreakLabel=f0c94b&sideLabels=94a3b8&dates=64748b&currStreakNum=f8fafc&sideNums=f8fafc" alt="GitHub contribution streak"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maazcrafts&theme=github_dark&animation=draw&duration=3&title_color=f0c94b&icon_color=f0c94b&chart_color=f0c94b" width="100%" alt="GitHub profile contribution overview"/>
 
 </div>
 
@@ -102,7 +106,9 @@ AI / ML &nbsp;•&nbsp; Full-Stack &nbsp;•&nbsp; Real-Time Systems
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=maazcrafts&bg_color=0d1117&color=f0c94b&line=f0c94b&point=ffffff&area=true&hide_border=true" width="95%" alt="GitHub contribution activity graph"/>
+<a href="https://github.com/maazcrafts">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=maazcrafts&bg_color=0d1117&color=f0c94b&line=f0c94b&point=f8fafc&area_color=f0c94b&area=true&hide_border=true&custom_title=MAAZ%20KHAN%20%E2%80%94%20ACTIVITY" width="100%" alt="GitHub contribution activity graph"/>
+</a>
 
 </div>
 
@@ -111,10 +117,13 @@ AI / ML &nbsp;•&nbsp; Full-Stack &nbsp;•&nbsp; Real-Time Systems
 ## 🐍 Contribution Snake
 
 <div align="center">
+
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake-dark.svg"/>
-<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution snake"/>
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake.svg"/>
+<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated contribution snake"/>
 </picture>
+
 </div>
 
 ---
