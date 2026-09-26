@@ -1,160 +1,111 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-profile-transition-slow.gif" width="900" alt="Maaz Khan animated profile portrait" />
+<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-profile-system.svg" width="100%" alt="Maaz Khan profile system with animated portrait and developer information" />
 
 <br/><br/>
-
-# MAAZ KHAN
-
-**Computer Engineering Student**
-
-AI / ML &nbsp;•&nbsp; Full-Stack &nbsp;•&nbsp; Real-Time Systems
-
-<br/>
 
 <a href="https://maaz-portfolio-orpin.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+<a href="https://github.com/maazcrafts/Aerio"><img src="https://img.shields.io/badge/AERIO-111827?style=for-the-badge&logo=socketdotio&logoColor=white" alt="Aerio"/></a>
 <a href="https://linkedin.com/in/khan-maaz-8a3345377"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://aerio-delta.vercel.app/chat"><img src="https://img.shields.io/badge/AERIO-111827?style=for-the-badge&logo=socketdotio&logoColor=white" alt="Aerio"/></a>
-
-<br/><br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3500&pause=1200&color=6EE7FF&center=true&vCenter=true&width=850&lines=I+build+software+worth+using.;AI+%E2%80%A2+Full-stack+%E2%80%A2+Real-time+applications;Turning+ideas+into+deployed+systems.;Currently+building+Aerio." alt="Animated introduction"/>
+<a href="mailto:maazsabirkhan@gmail.com"><img src="https://img.shields.io/badge/EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 
 </div>
 
 ---
 
-## 01 // WHO AM I
+## 🚀 About Me
 
-I'm **Maaz Khan**, a Computer Engineering student from **Mumbai, India**.
-
-I build practical software across **AI, full-stack development, real-time applications and mobile systems**. My current focus is turning ideas into deployed products rather than leaving them as demos.
-
-### CURRENT BUILD — AERIO
-
-A real-time messaging application with authentication, Socket.IO messaging, PostgreSQL, media, voice notes and end-to-end encryption.
-
-**[SOURCE →](https://github.com/maazcrafts/Aerio)** · **[LIVE →](https://aerio-delta.vercel.app/chat)**
+- 🎓 Final-year **Diploma in Computer Engineering** student
+- 🧠 Building across **AI / ML, full-stack development, real-time systems and mobile**
+- ⚡ Currently building **Aerio**, a real-time messaging application with Socket.IO, PostgreSQL and end-to-end encryption
+- 🧩 Interested in turning prototypes into deployed, usable systems
+- 📍 Mumbai, India
 
 ---
 
-## 02 // PROJECT VAULT
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ⚡ AERIO
-
-Real-time communication system.
-
-React Native · Node.js · Socket.IO · PostgreSQL
-
-Messaging · E2EE · media · voice notes · authentication
-
-**[SOURCE →](https://github.com/maazcrafts/Aerio)**
-
-</td>
-<td width="50%" valign="top">
-
-### 🧠 AI RESEARCH ASSISTANT
-
-Multi-agent research workflow.
-
-Python · CrewAI · OpenRouter
-
-Research · summarization · fact checking · reports
-
-**[SOURCE →](https://github.com/maazcrafts/AI-Research-Assistant)**
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎵 TUNEX
-
-Browser music experience.
-
-HTML · CSS · JavaScript
-
-Playlist management · playback · responsive UI
-
-**[SOURCE](https://github.com/maazcrafts/TuneX)** · **[LIVE](https://maazcrafts.github.io/TuneX/)**
-
-</td>
-<td width="50%" valign="top">
-
-### 🏦 BANK SYSTEM
-
-Account management web application.
-
-HTML · CSS · JavaScript
-
-Accounts · transactions · browser interface
-
-**[SOURCE](https://github.com/maazcrafts/bank-account-management-system)**
-
-</td>
-</tr>
-</table>
-
----
-
-## 03 // STACK
+## 🛠️ Tech Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=cpp,python,js,ts,html,css,react,nodejs,postgres,mysql,git,github,linux,vscode,vercel,firebase&perline=8" alt="Technology stack"/>
+
+<img src="https://img.shields.io/badge/C++-111827?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=FFD43B"/>
+<img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+<img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=3178C6"/>
+<img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=nodedotjs&logoColor=68A063"/>
+<img src="https://img.shields.io/badge/PostgreSQL-111827?style=for-the-badge&logo=postgresql&logoColor=4169E1"/>
+<img src="https://img.shields.io/badge/React_Native-111827?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FCC624"/>
+<img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032"/>
+
 </div>
 
 ---
 
-## 04 // GITHUB TELEMETRY
+## ⚡ Featured Project — AERIO
+
+**Real-Time Messaging + End-to-End Encryption**
+
+> A full-stack communication application focused on real-time delivery, private messaging and a mobile-first experience.
+
+- 🔐 **E2EE:** NaCl box / public-key based message encryption
+- ⚡ **Real-time:** Socket.IO messaging
+- 🗄️ **Backend:** Node.js + PostgreSQL
+- 📱 **Mobile:** React Native
+- 🎙️ **Media:** voice notes, images, attachments and GIFs
+- ✉️ **Auth:** email verification
+- 🚀 **Deployment:** Vercel + Render
+
+**[Repository →](https://github.com/maazcrafts/Aerio)** · **[Live App →](https://aerio-delta.vercel.app/chat)**
+
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
-<a href="https://github.com/maazcrafts"><img height="175" src="https://github-readme-stats.vercel.app/api?username=maazcrafts&show_icons=true&hide_border=true&theme=transparent&title_color=6EE7FF&text_color=CBD5E1&icon_color=A78BFA&include_all_commits=true&rank_icon=github" alt="GitHub statistics"/></a>
-<a href="https://github.com/maazcrafts"><img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maazcrafts&layout=compact&hide_border=true&theme=transparent&title_color=F472B6&text_color=CBD5E1&langs_count=8" alt="Most used languages"/></a>
+
+<img src="https://github-readme-stats.vercel.app/api?username=maazcrafts&show_icons=true&hide_border=true&theme=transparent&title_color=f0c94b&text_color=cbd5e1&icon_color=f0c94b&include_all_commits=true&rank_icon=github" height="180" alt="GitHub statistics"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maazcrafts&layout=compact&hide_border=true&theme=transparent&title_color=f0c94b&text_color=cbd5e1&langs_count=8" height="180" alt="Languages used"/>
+
 <br/>
-<img src="https://streak-stats.demolab.com/?user=maazcrafts&theme=transparent&hide_border=true&ring=6EE7FF&fire=F472B6&currStreakLabel=6EE7FF&sideLabels=94A3B8&dates=64748B&currStreakNum=F8FAFC&sideNums=F8FAFC" alt="GitHub contribution streak"/>
+
+<img src="https://streak-stats.demolab.com/?user=maazcrafts&theme=transparent&hide_border=true&ring=f0c94b&fire=f0c94b&currStreakLabel=f0c94b&sideLabels=94a3b8&dates=64748b&currStreakNum=f8fafc&sideNums=f8fafc" alt="GitHub contribution streak"/>
+
 </div>
 
 ---
 
-## 05 // CONTRIBUTION MATRIX
+## 📈 Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=maazcrafts&bg_color=0d1117&color=f0c94b&line=f0c94b&point=ffffff&area=true&hide_border=true" width="95%" alt="GitHub contribution activity graph"/>
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
 
 <div align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake-dark.svg"/>
-<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution graph"/>
+<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution snake"/>
 </picture>
 </div>
 
 ---
 
-## 06 // ENGINEERING TIMELINE
-
-2024 ─────── Computer Engineering  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│  
-2025 ─────── C++ / OOP / Web / DSA  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│  
-2026 ─────── AI + ML  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Aerio  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── AI Research Assistant  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── Full-stack systems  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Deployed applications  
-2027 ─────── NEXT BUILD
-
----
+## 🤝 Connect With Me
 
 <div align="center">
 
-## MAAZ.OS // PROFILE ONLINE
+<a href="https://linkedin.com/in/khan-maaz-8a3345377"><img src="https://img.shields.io/badge/LINKEDIN-111827?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
+<a href="https://instagram.com/"><img src="https://img.shields.io/badge/INSTAGRAM-111827?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram"/></a>
+<a href="mailto:maazsabirkhan@gmail.com"><img src="https://img.shields.io/badge/GMAIL-111827?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Gmail"/></a>
 
-**Build. Break. Learn. Ship.**
+<br/><br/>
 
-<a href="https://maaz-portfolio-orpin.vercel.app/">Portfolio</a> ·
-<a href="https://github.com/maazcrafts">Repositories</a> ·
-<a href="https://linkedin.com/in/khan-maaz-8a3345377">LinkedIn</a> ·
-<a href="mailto:maazsabirkhan@gmail.com">Contact</a>
+<em>Building in public. Learning continuously. Always shipping.</em>
 
 </div>
