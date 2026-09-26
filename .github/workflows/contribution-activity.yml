@@ -87,10 +87,68 @@ jobs:
           </svg>'''
 
           Path("assets/contribution-activity.svg").write_text(svg)
+          # Generate a GitHub-style contribution heatmap as a local SVG.
+          cell = 15
+          gap = 4
+          left, top = 52, 48
+          cols = 53
+          rows = 7
+          W = left + cols*(cell+gap) + 25
+          H = top + rows*(cell+gap) + 55
+          max_count = max((d["contributionCount"] for d in days), default=1)
+
+          def level(count):
+              if count == 0: return "#161b22"
+              ratio = count / max_count
+              if ratio <= .25: return "#0e4429"
+              if ratio <= .50: return "#006d32"
+              if ratio <= .75: return "#26a641"
+              return "#39d353"
+
+          by_date = {d["date"]: d["contributionCount"] for d in days}
+          import datetime as dt
+          end_date = dt.date.fromisoformat(days[-1]["date"]) if days else dt.date.today()
+          start_date = end_date - dt.timedelta(days=364)
+
+          cells = []
+          for i in range(365):
+              day = start_date + dt.timedelta(days=i)
+              col = i // 7
+              row = day.weekday()
+              count = by_date.get(day.isoformat(), 0)
+              x = left + col*(cell+gap)
+              y = top + row*(cell+gap)
+              cells.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="3" fill="{level(count)}"><title>{day.isoformat()}: {count} contributions</title></rect>')
+
+          months = []
+          seen = set()
+          for i in range(365):
+              day = start_date + dt.timedelta(days=i)
+              if day.day <= 7 and day.strftime("%b") not in seen:
+                  col = i // 7
+                  months.append(f'<text x="{left + col*(cell+gap)}" y="27" fill="#8b949e" font-family="Arial,sans-serif" font-size="12">{day.strftime("%b")}</text>')
+                  seen.add(day.strftime("%b"))
+
+          legend = []
+          labels = ["Less","More"]
+          for j, color in enumerate(["#161b22","#0e4429","#006d32","#26a641","#39d353"]):
+              x = W-170+j*20
+              legend.append(f'<rect x="{x}" y="{H-28}" width="14" height="14" rx="3" fill="{color}"/>')
+
+          heatmap = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">
+          <rect width="100%" height="100%" rx="12" fill="#0d1117"/>
+          <text x="{left}" y="18" fill="#f0c94b" font-family="Arial,sans-serif" font-size="16" font-weight="700">MAAZ KHAN // BUILD ACTIVITY</text>
+          {''.join(months)}
+          {''.join(cells)}
+          <text x="{W-180}" y="{H-17}" fill="#8b949e" font-family="Arial,sans-serif" font-size="11">LESS</text>
+          {''.join(legend)}
+          <text x="{W-55}" y="{H-17}" fill="#8b949e" font-family="Arial,sans-serif" font-size="11">MORE</text>
+          </svg>'''
+          Path("assets/contribution-heatmap.svg").write_text(heatmap)
           PY
 
       - name: Commit activity graph
         uses: EndBug/add-and-commit@v9
         with:
-          add: "assets/contribution-activity.svg"
-          message: "Update contribution activity"
+          add: "assets/contribution-activity.svg assets/contribution-heatmap.svg"
+          message: "Update contribution activity and heatmap"
