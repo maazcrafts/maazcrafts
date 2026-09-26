@@ -19,20 +19,59 @@ AI / ML &nbsp;•&nbsp; Full-Stack &nbsp;•&nbsp; Real-Time Systems
 
 </div>
 
-### `SYSTEM.INFO`
+<div align="center">
+
+### `SYSTEM.PROFILE`
+
+**MAAZ KHAN** &nbsp;•&nbsp; **COMPUTER ENGINEERING** &nbsp;•&nbsp; **MUMBAI, INDIA**
+
+<br/>
+
+<img src="https://img.shields.io/badge/STATUS-LEARNING%20%7C%20BUILDING%20%7C%20SHIPPING-f0c94b?style=for-the-badge&labelColor=111827" alt="Status: Learning Building Shipping"/>
+<img src="https://img.shields.io/badge/FOCUS-AI%20%2F%20ML%20%7C%20FULL--STACK%20%7C%20REAL--TIME-111827?style=for-the-badge&labelColor=111827" alt="Focus: AI ML Full Stack Real Time"/>
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### ◼ CORE PROFILE
 
 | | |
 |---|---|
-| **Subject** | Maaz Khan |
 | **Role** | Computer Engineering Student |
-| **Origin** | Mumbai, India |
-| **Status** | Learning → Building → Shipping |
+| **Location** | Mumbai, India |
 | **Core** | C++ · Python · TypeScript · React |
 | **Backend** | Node.js · PostgreSQL · Socket.IO |
-| **Focus** | AI / ML · Real-Time Systems · Mobile |
-| **Current Build** | **AERIO — Real-Time Messaging** |
+| **Mobile** | React Native |
+| **Focus** | AI / ML · Real-Time · Systems |
 
-> **Current mission:** Turn ideas into systems that actually work.
+</td>
+<td width="50%" valign="top">
+
+#### ◼ CURRENT RUNTIME
+
+```text
+[ ONLINE ]
+
+BUILD    AERIO
+TYPE     REAL-TIME MESSAGING
+SECURITY END-TO-END ENCRYPTION
+STACK    NODE + POSTGRES + SOCKET.IO
+CLIENT   REACT NATIVE
+MEDIA    GIF + IMAGE + VOICE + FILES
+
+STATE    ACTIVE DEVELOPMENT
+```
+
+</td>
+</tr>
+</table>
+
+> **MISSION //** Turn ideas into systems that actually work.
+>
+> **MODE //** Learn → Build → Test → Ship → Repeat
 
 ---
 
