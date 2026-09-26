@@ -23,6 +23,8 @@ AI / ML &nbsp;•&nbsp; Full-Stack &nbsp;•&nbsp; Real-Time Systems
 
 <div align="center">
 
+<div align="center">
+
 ### `SYSTEM.PROFILE`
 
 **MAAZ KHAN** &nbsp;·&nbsp; **COMPUTER ENGINEERING** &nbsp;·&nbsp; **MUMBAI, INDIA**
@@ -85,25 +87,20 @@ Vercel · Render
 </tr>
 </table>
 
-<br/>
-
 <div align="center">
 
-```text
-┌──────────────────────────────────────────────────────────────┐
-│  MAAZ // BUILD PIPELINE                                     │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│  IDEA  →  ARCHITECT  →  BUILD  →  TEST  →  SHIP             │
-│                                                              │
-│  CURRENT TARGET                                             │
-│  └─ AERIO · REAL-TIME COMMUNICATION                         │
-│                                                              │
-│  PRINCIPLE                                                   │
-│  └─ Turn ideas into systems that actually work.              │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
+**BUILD FLOW**
+
+IDEA ──→ ARCHITECT ──→ BUILD ──→ TEST ──→ SHIP
+
+<br/>
+
+<table>
+<tr>
+<td align="center"><b>⚡ CURRENT TARGET</b><br/>AERIO · Real-Time Communication</td>
+<td align="center"><b>🎯 PRINCIPLE</b><br/>Turn ideas into systems that actually work.</td>
+</tr>
+</table>
 
 </div>
 
