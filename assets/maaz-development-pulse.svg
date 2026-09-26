@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="Maaz Khan development pulse">
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop stop-color="#6ee7ff"/><stop offset=".5" stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+  <pattern id="p" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#94a3b8" stroke-opacity=".06"/></pattern>
+</defs>
+<rect width="1200" height="270" rx="20" fill="#0b0f16" stroke="#1e293b"/>
+<rect width="1200" height="270" rx="20" fill="url(#p)"/>
+<text x="40" y="48" font-family="monospace" font-size="14" fill="#64748b" letter-spacing="3">DEVELOPMENT_PULSE</text>
+<text x="40" y="88" font-family="monospace" font-size="28" fill="#f8fafc">BUILDING ACROSS LAYERS</text>
+<g font-family="monospace" font-size="14">
+<text x="40" y="132" fill="#94a3b8">AI / ML</text><rect x="150" y="120" width="700" height="10" rx="5" fill="#1e293b"/><rect x="150" y="120" width="510" height="10" rx="5" fill="url(#g)"/>
+<text x="40" y="169" fill="#94a3b8">FULL-STACK</text><rect x="150" y="157" width="700" height="10" rx="5" fill="#1e293b"/><rect x="150" y="157" width="585" height="10" rx="5" fill="url(#g)"/>
+<text x="40" y="206" fill="#94a3b8">SYSTEMS</text><rect x="150" y="194" width="700" height="10" rx="5" fill="#1e293b"/><rect x="150" y="194" width="455" height="10" rx="5" fill="url(#g)"/>
+<text x="900" y="132" fill="#6ee7ff">SOCKET.IO</text>
+<text x="900" y="159" fill="#a5b4fc">POSTGRESQL</text>
+<text x="900" y="186" fill="#c084fc">REACT / NODE</text>
+<text x="900" y="213" fill="#94a3b8">C++ / PYTHON</text>
+</g>
+<text x="40" y="245" font-family="monospace" font-size="11" fill="#475569">AERIO · AI RESEARCH ASSISTANT · TUNEX · EXPERIMENTS</text>
+</svg>
