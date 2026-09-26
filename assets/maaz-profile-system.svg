@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="620" viewBox="0 0 1400 620">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090909"/><stop offset="1" stop-color="#15100d"/></linearGradient>
+<linearGradient id="gold" x1="0" x2="1"><stop stop-color="#b88918"/><stop offset=".5" stop-color="#f0c94b"/><stop offset="1" stop-color="#8d6411"/></linearGradient>
+<pattern id="scan" width="4" height="8" patternUnits="userSpaceOnUse"><path d="M0 1H4" stroke="#f0c94b" stroke-opacity=".08"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="left"><rect x="34" y="78" width="620" height="500" rx="8"/></clipPath>
+</defs>
+<rect x="10" y="10" width="1380" height="600" rx="18" fill="url(#bg)" stroke="#352817"/>
+<rect x="34" y="78" width="620" height="500" rx="8" fill="#080808" stroke="#2c2115"/>
+<g clip-path="url(#left)">
+<image href="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-profile-transition-slow.gif" x="34" y="78" width="620" height="500" preserveAspectRatio="xMidYMid slice"/>
+<rect x="34" y="78" width="620" height="500" fill="url(#scan)"/>
+</g>
+<line x1="690" y1="78" x2="690" y2="578" stroke="#332719"/>
+<text x="50" y="50" fill="#8f7a5a" font-family="monospace" font-size="14" letter-spacing="4">profile.sh — live</text>
+<circle cx="1340" cy="44" r="5" fill="#a11" filter="url(#glow)"/><text x="1352" y="49" fill="#b99b75" font-family="monospace" font-size="11">LIVE</text>
+<g font-family="monospace">
+<text x="730" y="112" fill="#8f7a5a" font-size="12" letter-spacing="3">SYSTEM.INFO</text>
+<rect x="730" y="135" width="130" height="27" rx="13" fill="#3a2020"/><text x="746" y="154" fill="#f1d2d2" font-size="13">@maazcrafts</text>
+<text x="730" y="198" fill="#756653" font-size="13">Subject</text><text x="1340" y="198" text-anchor="end" fill="#e7ded0" font-size="13">Maaz Khan</text><line x1="730" y1="207" x2="1340" y2="207" stroke="#2d241a" stroke-dasharray="2 5"/>
+<text x="730" y="232" fill="#756653" font-size="13">Role</text><text x="1340" y="232" text-anchor="end" fill="#e7ded0" font-size="13">Computer Engineering Student</text><line x1="730" y1="241" x2="1340" y2="241" stroke="#2d241a" stroke-dasharray="2 5"/>
+<text x="730" y="266" fill="#756653" font-size="13">Origin</text><text x="1340" y="266" text-anchor="end" fill="#e7ded0" font-size="13">Mumbai, India</text><line x1="730" y1="275" x2="1340" y2="275" stroke="#2d241a" stroke-dasharray="2 5"/>
+<text x="730" y="300" fill="#756653" font-size="13">Status</text><text x="1340" y="300" text-anchor="end" fill="#f0c94b" font-size="13">Learning → Building → Shipping</text><line x1="730" y1="309" x2="1340" y2="309" stroke="#2d241a" stroke-dasharray="2 5"/>
+<text x="730" y="334" fill="#756653" font-size="13">Core</text><text x="1340" y="334" text-anchor="end" fill="#e7ded0" font-size="13">C++ · Python · TypeScript · React</text><line x1="730" y1="343" x2="1340" y2="343" stroke="#2d241a" stroke-dasharray="2 5"/>
+<text x="730" y="368" fill="#756653" font-size="13">Backend</text><text x="1340" y="368" text-anchor="end" fill="#e7ded0" font-size="13">Node.js · PostgreSQL · Socket.IO</text><line x1="730" y1="377" x2="1340" y2="377" stroke="#2d241a" stroke-dasharray="2 5"/>
+<text x="730" y="402" fill="#756653" font-size="13">Focus</text><text x="1340" y="402" text-anchor="end" fill="#e7ded0" font-size="13">AI / ML · Real-Time Systems · Mobile</text><line x1="730" y1="411" x2="1340" y2="411" stroke="#2d241a" stroke-dasharray="2 5"/>
+<text x="730" y="436" fill="#756653" font-size="13">Building</text><text x="1340" y="436" text-anchor="end" fill="#f0c94b" font-size="13">AERIO — Real-Time Messaging</text>
+<text x="730" y="486" fill="#756653" font-size="12" letter-spacing="2">CURRENT MISSION</text>
+<text x="730" y="515" fill="#d7c6ad" font-size="14">Turn ideas into systems that actually work.</text>
+<rect x="730" y="545" width="610" height="2" fill="#2d241a"/><rect x="730" y="545" width="360" height="2" fill="url(#gold)"><animate attributeName="width" values="250;520;250" dur="4s" repeatCount="indefinite"/></rect>
+</g>
+</svg>
