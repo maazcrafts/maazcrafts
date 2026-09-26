@@ -1,151 +1,182 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-command-center.svg" width="100%" alt="Maaz Khan developer command center" />
+<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-command-center.svg" width="100%" alt="Maaz Khan interactive developer identity" />
 
 <br/>
 
-<a href="https://maaz-portfolio-orpin.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="https://linkedin.com/in/khan-maaz-8a3345377"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://leetcode.com/u/code_with_maaz/"><img src="https://img.shields.io/badge/LEETCODE-F89F1B?style=for-the-badge&logo=leetcode&logoColor=111827" alt="LeetCode" /></a>
-<a href="mailto:maazsabirkhan@gmail.com"><img src="https://img.shields.io/badge/EMAIL-334155?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<img src="https://komarev.com/ghpvc/?username=maazcrafts&style=for-the-badge&color=334155&label=PROFILE+VIEWS" alt="Profile views" />
+<a href="https://maaz-portfolio-orpin.vercel.app/"><img src="https://img.shields.io/badge/ENTER_PORTFOLIO-05070b?style=for-the-badge&logo=vercel&logoColor=22d3ee&labelColor=05070b" alt="Portfolio" /></a>
+<a href="https://aerio-delta.vercel.app/chat"><img src="https://img.shields.io/badge/OPEN_AERIO-05070b?style=for-the-badge&logo=socketdotio&logoColor=818cf8&labelColor=05070b" alt="Aerio" /></a>
+<a href="https://linkedin.com/in/khan-maaz-8a3345377"><img src="https://img.shields.io/badge/LINKEDIN-05070b?style=for-the-badge&logo=linkedin&logoColor=38bdf8&labelColor=05070b" alt="LinkedIn" /></a>
+<a href="https://leetcode.com/u/code_with_maaz/"><img src="https://img.shields.io/badge/LEETCODE-05070b?style=for-the-badge&logo=leetcode&logoColor=fbbf24&labelColor=05070b" alt="LeetCode" /></a>
+
+</div>
+
+<div align="center">
+
+### `SYSTEM ONLINE // HUMAN BEHIND THE CODE`
+
+**I build products, not just projects.**
 
 </div>
 
 ---
 
-## `maaz@github:~$ whoami`
+<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-system-modules.svg" width="100%" alt="AI, real-time, security and product engineering modules" />
 
-I'm **Maaz Khan**, a Computer Engineering student from **Mumbai, India** building practical software across **AI, full-stack development, real-time systems and mobile applications**.
+---
 
-I care less about making a demo look impressive and more about making the underlying system actually work.
+## `01 // IDENTITY`
+
+<table>
+<tr>
+<td width="60%">
+
+### Maaz Khan
+
+**Computer Engineering · Mumbai, India**
+
+I build across **AI, full-stack development, real-time systems and mobile applications**.
+
+My current engineering focus is **Aerio** — a real-time messaging system involving authentication, Socket.IO, PostgreSQL, media, voice notes and end-to-end encryption.
+
+I'm also working through **DSA, backend architecture and AI systems**.
+
+</td>
+<td width="40%">
 
 ```text
-CURRENT MODE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-[●] BUILDING       Aerio — real-time messaging
-[●] EXPLORING      AI agents / ML / backend systems
-[●] PRACTICING     C++ / DSA / system design
-[●] SHIPPING       Web + mobile applications
-[→] NEXT           Bigger systems, cleaner engineering
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STATUS
+──────────────────
+● BUILDING
+● LEARNING
+● SHIPPING
+
+CORE
+──────────────────
+C++ / Python
+TypeScript / JS
+React / Node
+PostgreSQL
+
+MODE
+──────────────────
+BUILD > TALK
 ```
 
-## `~/mission`
-
-> **Build. Break. Learn. Ship.**
-
-I'm interested in the intersection of **software engineering + AI**: applications that are useful, responsive, secure and actually deployed.
+</td>
+</tr>
+</table>
 
 ---
 
-## `~/featured-projects`
+## `02 // PROJECT VAULT`
 
-| Project | What I built | Stack |
-| :--- | :--- | :--- |
-| **[Aerio](https://github.com/maazcrafts/Aerio)** | Real-time messaging, E2EE, voice notes, media and authentication | React Native · Node · Socket.IO · PostgreSQL |
-| **[AI Research Assistant](https://github.com/maazcrafts/AI-Research-Assistant)** | Multi-agent research, summarization and structured reports | Python · CrewAI · OpenRouter |
-| **[TuneX](https://github.com/maazcrafts/TuneX)** | Browser music player with playlist and playback controls | HTML · CSS · JavaScript |
-| **[Bank Account Management](https://github.com/maazcrafts/bank-account-management-system)** | Account and transaction management web application | HTML · CSS · JavaScript |
+### ⚡ AERIO
+**Real-time communication system**
 
-### Live systems
+`React Native` · `Node.js` · `Socket.IO` · `PostgreSQL` · `E2EE`
 
-- **Aerio:** [open the app](https://aerio-delta.vercel.app/chat)
-- **TuneX:** [open the demo](https://maazcrafts.github.io/TuneX/)
-- **Bank System:** [open the demo](https://maazcrafts.github.io/bank-account-management-system/)
+> Messaging · media · voice notes · authentication · encrypted communication
+
+**[SOURCE](https://github.com/maazcrafts/Aerio)** · **[LIVE](https://aerio-delta.vercel.app/chat)**
+
+### 🧠 AI RESEARCH ASSISTANT
+**Multi-agent research workflow**
+
+`Python` · `CrewAI` · `OpenRouter`
+
+> Research · summarization · fact-checking · structured reports
+
+**[SOURCE](https://github.com/maazcrafts/AI-Research-Assistant)**
+
+### 🎵 TUNEX
+**Browser music experience**
+
+`HTML` · `CSS` · `JavaScript`
+
+**[SOURCE](https://github.com/maazcrafts/TuneX)** · **[LIVE](https://maazcrafts.github.io/TuneX/)**
 
 ---
 
-## `~/development-pulse`
+## `03 // TECH MATRIX`
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-development-pulse.svg" width="100%" alt="Development pulse" />
+
+<img src="https://skillicons.dev/icons?i=cpp,python,js,ts,html,css,react,nodejs,postgres,mysql,git,github,linux,vscode,vercel,firebase&perline=8" alt="Technology stack" />
+
 </div>
 
+```text
+FRONTEND       ████████████████████  React / JS / TS / HTML / CSS
+BACKEND        ██████████████████░░  Node / PostgreSQL / APIs
+AI / ML        ████████████████░░░░  Python / Agents / ML
+SYSTEMS        ███████████████░░░░░  C++ / DSA / Architecture
+MOBILE         ██████████████░░░░░░  React Native
+DEVOPS         ████████████░░░░░░░░  Git / Vercel / Linux
+```
+
 ---
 
-## `~/stack`
+## `04 // GITHUB TELEMETRY`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=cpp,python,js,ts,html,css,react,nodejs,postgres,mysql,git,github,linux,vscode,vercel&perline=8" alt="Technology stack" />
-
-</div>
-
----
-
-## `~/github-stats`
-
-<div align="center">
-
-<a href="https://github.com/maazcrafts">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=maazcrafts&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github&include_all_commits=true" alt="GitHub statistics" />
-</a>
-<a href="https://github.com/maazcrafts">
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maazcrafts&layout=compact&hide_border=true&theme=github_dark&langs_count=8" alt="Most used languages" />
-</a>
+<a href="https://github.com/maazcrafts"><img height="180" src="https://github-readme-stats.vercel.app/api?username=maazcrafts&show_icons=true&hide_border=true&theme=transparent&title_color=22d3ee&text_color=cbd5e1&icon_color=a78bfa&include_all_commits=true&rank_icon=github" alt="GitHub statistics" /></a>
+<a href="https://github.com/maazcrafts"><img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maazcrafts&layout=compact&hide_border=true&theme=transparent&title_color=f472b6&text_color=cbd5e1&langs_count=8" alt="Most used languages" /></a>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com/?user=maazcrafts&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" />
+<img src="https://streak-stats.demolab.com/?user=maazcrafts&theme=transparent&hide_border=true&ring=22d3ee&fire=f472b6&currStreakLabel=22d3ee&sideLabels=94a3b8&dates=64748b&currStreakNum=f8fafc&sideNums=f8fafc" alt="GitHub contribution streak" />
 
 </div>
 
 ---
 
-## `~/contribution-grid`
+## `05 // CONTRIBUTION MATRIX`
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" width="100%" />
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake-dark.svg" />
+<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/output/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution graph" />
 </picture>
 
 </div>
 
 ---
 
-## `~/engineering-timeline`
+## `06 // ENGINEERING TIMELINE`
 
 ```text
-2024  ──►  Computer Engineering
-             │
-2025  ──►  C++ / OOP / Web Development / DSA
-             │
-2026  ──►  AI + ML internship
-             │
-             ├──► Aerio
-             ├──► AI Research Assistant
-             ├──► Full-stack systems
-             └──► Real-world deployment
-             │
-2027  ──►  ████████████████████████████████  NEXT
+2024  ──────────────── COMPUTER ENGINEERING
+                         │
+2025  ──────────────── C++ / OOP / WEB / DSA
+                         │
+2026  ──────────────── AI + ML
+                         │
+                         ├── AERIO
+                         ├── AI RESEARCH ASSISTANT
+                         ├── FULL-STACK SYSTEMS
+                         └── DEPLOYED APPLICATIONS
+                         │
+2027  ──────────────── NEXT BUILD
 ```
-
----
-
-## `~/principles`
-
-- **Ship real things.**
-- **Understand the system underneath the UI.**
-- **Learn by building.**
-- **Document what matters.**
-- **Keep improving the boring parts.**
 
 ---
 
 <div align="center">
 
-### `maaz@github:~$ echo "see you in production"`
+## `MAAZ.OS`
 
-**Build. Break. Learn. Ship.**
+`BUILD` · `BREAK` · `LEARN` · `SHIP`
+
+**The profile is the interface. The repositories are the machine.**
 
 <br/>
 
-<a href="https://maaz-portfolio-orpin.vercel.app/">Portfolio</a> ·
-<a href="https://github.com/maazcrafts">GitHub</a> ·
-<a href="https://linkedin.com/in/khan-maaz-8a3345377">LinkedIn</a> ·
-<a href="https://leetcode.com/u/code_with_maaz/">LeetCode</a>
+<a href="https://maaz-portfolio-orpin.vercel.app/">PORTFOLIO</a> ·
+<a href="https://github.com/maazcrafts">REPOSITORIES</a> ·
+<a href="https://linkedin.com/in/khan-maaz-8a3345377">LINKEDIN</a> ·
+<a href="mailto:maazsabirkhan@gmail.com">CONTACT</a>
 
 </div>
