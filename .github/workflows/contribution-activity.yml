@@ -1,0 +1,96 @@
+name: Update Contribution Activity
+
+on:
+  schedule:
+    - cron: "37 0 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/contribution-activity.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch contribution data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api graphql -f query='
+            query($login:String!) {
+              user(login:$login) {
+                contributionsCollection {
+                  contributionCalendar {
+                    totalContributions
+                    weeks {
+                      contributionDays {
+                        contributionCount
+                        date
+                      }
+                    }
+                  }
+                }
+              }
+            }' -f login=maazcrafts > /tmp/contributions.json
+
+      - name: Generate activity SVG
+        run: |
+          python3 - <<'PY'
+          import json, math
+          from pathlib import Path
+          from datetime import datetime
+
+          data = json.load(open("/tmp/contributions.json"))
+          weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+          days = [d for w in weeks for d in w["contributionDays"]]
+
+          W, H = 1200, 330
+          left, right, top, bottom = 55, 25, 62, 58
+          chart_w, chart_h = W-left-right, H-top-bottom
+          n = len(days)
+          max_count = max((d["contributionCount"] for d in days), default=1)
+
+          points = []
+          for i, d in enumerate(days):
+              x = left + (i/(max(n-1,1))) * chart_w
+              y = top + chart_h - (d["contributionCount"]/max_count) * chart_h
+              points.append((x,y))
+
+          line = " ".join(f"{x:.1f},{y:.1f}" for x,y in points)
+          area = f"{left},{top+chart_h} " + line + f" {left+chart_w},{top+chart_h}"
+
+          first = datetime.fromisoformat(days[0]["date"]).strftime("%b %Y") if days else ""
+          last = datetime.fromisoformat(days[-1]["date"]).strftime("%b %Y") if days else ""
+          total = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+
+          grid = []
+          for frac in (0, .25, .5, .75, 1):
+              y = top + chart_h - frac*chart_h
+              grid.append(f'<line x1="{left}" y1="{y:.1f}" x2="{left+chart_w}" y2="{y:.1f}" stroke="#30363d" stroke-width="1"/>')
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">
+          <rect width="100%" height="100%" rx="12" fill="#0d1117"/>
+          <text x="{left}" y="30" fill="#f0c94b" font-family="Arial, sans-serif" font-size="18" font-weight="700">MAAZ KHAN // CONTRIBUTION ACTIVITY</text>
+          <text x="{W-right}" y="30" text-anchor="end" fill="#8b949e" font-family="Arial, sans-serif" font-size="14">{total} contributions</text>
+          {''.join(grid)}
+          <polygon points="{area}" fill="#f0c94b" opacity="0.12"/>
+          <polyline points="{line}" fill="none" stroke="#f0c94b" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+          <circle cx="{points[-1][0]:.1f}" cy="{points[-1][1]:.1f}" r="5" fill="#f0c94b"/>
+          <text x="{left}" y="{H-24}" fill="#8b949e" font-family="Arial, sans-serif" font-size="13">{first}</text>
+          <text x="{W-right}" y="{H-24}" text-anchor="end" fill="#8b949e" font-family="Arial, sans-serif" font-size="13">{last}</text>
+          </svg>'''
+
+          Path("assets/contribution-activity.svg").write_text(svg)
+          PY
+
+      - name: Commit activity graph
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "assets/contribution-activity.svg"
+          message: "Update contribution activity"
