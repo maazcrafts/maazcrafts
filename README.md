@@ -174,15 +174,15 @@ IDEA ──→ ARCHITECT ──→ BUILD ──→ TEST ──→ SHIP
 
 ---
 
-## 📈 Contribution Activity
+## 🟨 Contribution Heatmap
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/contribution-activity.svg" width="100%" alt="Maaz Khan GitHub contribution activity"/>
+<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/contribution-heatmap.svg" width="100%" alt="Maaz Khan GitHub contribution heatmap"/>
 
 <br/>
 
-<sub><b>ACTIVITY TELEMETRY</b> · contribution data refreshed automatically</sub>
+<sub><b>CONTRIBUTION HEATMAP</b> · a year of building, learning and shipping</sub>
 
 </div>
 
