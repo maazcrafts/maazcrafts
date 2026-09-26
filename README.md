@@ -163,16 +163,12 @@ IDEA ──→ ARCHITECT ──→ BUILD ──→ TEST ──→ SHIP
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=maazcrafts&theme=github_dark&animation=load&duration=3&title_color=f0c94b&icon_color=f0c94b&chart_color=f0c94b" width="49%" alt="GitHub statistics"/>
 </a>
 <a href="https://github.com/maazcrafts">
-<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/command-center-languages.svg" width="49%" alt="GitHub language composition with percentages"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=maazcrafts&theme=github_dark&animation=load&duration=3&title_color=f0c94b&icon_color=f0c94b&chart_color=f0c94b" width="49%" alt="Languages used by repositories"/>
 </a>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/command-center-timeline.svg" width="100%" alt="GitHub contribution timeline by month"/>
-
-<br/>
-
-<sub><b>COMMAND CENTER</b> · LIVE DATA · MONTHLY CONTRIBUTION TIMELINE · LANGUAGE PERCENTAGES</sub>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=maazcrafts&theme=github_dark&animation=draw&duration=3&title_color=f0c94b&icon_color=f0c94b&chart_color=f0c94b" width="100%" alt="GitHub profile contribution overview"/>
 
 </div>
 
