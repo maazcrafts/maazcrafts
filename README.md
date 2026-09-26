@@ -1,35 +1,23 @@
 <div align="center">
 
-<table>
-<tr>
-<td width="48%" align="center" valign="middle">
+<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-profile-transition-slow.gif" width="900" alt="Maaz Khan animated profile portrait" />
 
-<img src="https://raw.githubusercontent.com/maazcrafts/maazcrafts/main/assets/maaz-profile-transition-slow.gif" width="430" alt="Maaz Khan animated profile portrait" />
+<br/><br/>
 
-</td>
-<td width="52%" valign="middle">
+# MAAZ KHAN
 
-<h1>MAAZ KHAN</h1>
-<p><strong>Computer Engineering Student</strong></p>
-<p>AI / ML &nbsp;•&nbsp; Full-Stack &nbsp;•&nbsp; Real-Time Systems</p>
+**Computer Engineering Student**
 
-<table>
-<tr><td><b>STATUS</b></td><td>● Building</td></tr>
-<tr><td><b>FOCUS</b></td><td>AI + Software Engineering</td></tr>
-<tr><td><b>BUILDING</b></td><td><a href="https://github.com/maazcrafts/Aerio">Aerio</a></td></tr>
-<tr><td><b>LOCATION</b></td><td>Mumbai, India</td></tr>
-<tr><td><b>MODE</b></td><td>Build → Break → Learn → Ship</td></tr>
-</table>
+AI / ML &nbsp;•&nbsp; Full-Stack &nbsp;•&nbsp; Real-Time Systems
 
 <br/>
+
 <a href="https://maaz-portfolio-orpin.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 <a href="https://linkedin.com/in/khan-maaz-8a3345377"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://aerio-delta.vercel.app/chat"><img src="https://img.shields.io/badge/AERIO-111827?style=for-the-badge&logo=socketdotio&logoColor=white" alt="Aerio"/></a>
 
-</td>
-</tr>
-</table>
+<br/><br/>
 
-<br/>
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3500&pause=1200&color=6EE7FF&center=true&vCenter=true&width=850&lines=I+build+software+worth+using.;AI+%E2%80%A2+Full-stack+%E2%80%A2+Real-time+applications;Turning+ideas+into+deployed+systems.;Currently+building+Aerio." alt="Animated introduction"/>
 
 </div>
@@ -42,11 +30,11 @@ I'm **Maaz Khan**, a Computer Engineering student from **Mumbai, India**.
 
 I build practical software across **AI, full-stack development, real-time applications and mobile systems**. My current focus is turning ideas into deployed products rather than leaving them as demos.
 
-### Current build
+### CURRENT BUILD — AERIO
 
-**Aerio** — a real-time messaging application with authentication, Socket.IO messaging, PostgreSQL, media, voice notes and end-to-end encryption.
+A real-time messaging application with authentication, Socket.IO messaging, PostgreSQL, media, voice notes and end-to-end encryption.
 
-**[SOURCE](https://github.com/maazcrafts/Aerio)** · **[LIVE](https://aerio-delta.vercel.app/chat)**
+**[SOURCE →](https://github.com/maazcrafts/Aerio)** · **[LIVE →](https://aerio-delta.vercel.app/chat)**
 
 ---
 
@@ -57,6 +45,7 @@ I build practical software across **AI, full-stack development, real-time applic
 <td width="50%" valign="top">
 
 ### ⚡ AERIO
+
 Real-time communication system.
 
 React Native · Node.js · Socket.IO · PostgreSQL
@@ -69,6 +58,7 @@ Messaging · E2EE · media · voice notes · authentication
 <td width="50%" valign="top">
 
 ### 🧠 AI RESEARCH ASSISTANT
+
 Multi-agent research workflow.
 
 Python · CrewAI · OpenRouter
@@ -83,6 +73,7 @@ Research · summarization · fact checking · reports
 <td width="50%" valign="top">
 
 ### 🎵 TUNEX
+
 Browser music experience.
 
 HTML · CSS · JavaScript
@@ -95,6 +86,7 @@ Playlist management · playback · responsive UI
 <td width="50%" valign="top">
 
 ### 🏦 BANK SYSTEM
+
 Account management web application.
 
 HTML · CSS · JavaScript
