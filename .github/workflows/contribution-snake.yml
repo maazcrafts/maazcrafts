@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "17 0 * * *"
   workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/contribution-snake.yml"
 
 permissions:
   contents: write
@@ -17,10 +20,10 @@ jobs:
         with:
           github_user_name: maazcrafts
           outputs: |
-            assets/github-contribution-grid-snake.svg?palette=github-light
-            assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=f0c94b
+            assets/github-contribution-grid-snake.svg?color_snake=f0c94b&color_dots=161b22,2b2110,5a4310,b88900,f0c94b
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=f0c94b&color_dots=161b22,2b2110,5a4310,b88900,f0c94b
       - name: Commit snake
         uses: EndBug/add-and-commit@v9
         with:
           add: "assets/github-contribution-grid-snake.svg assets/github-contribution-grid-snake-dark.svg"
-          message: "Update contribution snake"
+          message: "Upgrade contribution snake styling"
