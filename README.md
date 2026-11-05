@@ -21,96 +21,114 @@ Building practical AI tools, full-stack applications, and systems that solve rea
 
 ---
 
-## About
+<div align="center">
 
-I'm a Diploma in Computer Engineering student from Mumbai, India, building practical software across **AI applications, full-stack systems, real-time products, and automation**.
+### SOFTWARE WITH A PURPOSE · SYSTEMS WITH A STORY
 
-- Designing and building end-to-end products—from UI and APIs to databases, deployment, and debugging
-- Exploring AI engineering: structured generation, provider integrations, local models, and human-in-the-loop workflows
-- Interested in privacy-aware systems, useful automation, and software that solves real operational problems
-- Learning by shipping projects, testing assumptions, and improving the architecture as requirements become clearer
+I build products that connect **AI, people, and real-world workflows**.
 
-**My approach:** Understand the problem → design the system → build → test → improve.
+[![Portfolio](https://img.shields.io/badge/Explore_my_portfolio-Visit_site-0F766E?style=for-the-badge&logo=vercel&logoColor=white)](https://maaz-portfolio-orpin.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/Connect_on-LinkedIn-2563EB?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/khan-maaz-8a3345377)
 
----
-
-## Current Focus
-
-| Area | Current work |
-|---|---|
-| **AI engineering** | LLM application architecture, structured outputs, provider abstraction, local-model experiments |
-| **Full-stack development** | Next.js, React, TypeScript, Node.js, FastAPI |
-| **Backend & data** | REST APIs, PostgreSQL, SQLAlchemy, Supabase, authentication, tenant-aware data |
-| **Real-time systems** | Socket.IO, messaging workflows, event-driven communication |
-| **Deployment & tooling** | Git/GitHub, Docker, Vercel, Render, Linux |
-| **Core programming** | C++, Python, JavaScript, TypeScript, Java fundamentals |
+</div>
 
 ---
 
-## Selected Projects
+## ✦ The Engineer Behind the Builds
 
-### 1. AI Hospital Discharge Summary Generator
-A multi-hospital SaaS concept for preparing structured discharge-summary drafts from patient encounter documents, optional audio, and clinician notes.
+> Diploma in Computer Engineering · Mumbai, India  
+> AI & Software Developer
 
-- **Frontend:** Next.js, React, TypeScript
-- **Backend:** FastAPI, SQLAlchemy, PostgreSQL
-- Encounter-centered workflow with document uploads, optional audio and notes
-- Provider-agnostic AI foundation being designed for structured draft generation
-- Intended safeguards include tenant isolation, source traceability, and clinician review before final PDF approval
+I'm interested in the part of software engineering that happens **beyond the code**: understanding a problem, shaping the architecture, building the experience, connecting the data, and making the whole system work.
 
-**Status:** In active development. AI provider integration, extraction/transcription, and final PDF workflow are planned; not yet a production clinical system.
-
-### 2. [Aerio — Real-Time Messaging](https://github.com/maazcrafts/Aerio)
-A full-stack messaging application focused on real-time communication and private conversations.
-
-- Real-time messaging with **Socket.IO**
-- Node.js backend and PostgreSQL
-- React Native mobile experience
-- Exploring end-to-end encryption using NaCl public-key cryptography
-- Email verification, voice notes, GIFs, and attachments
-
-[Open live app](https://aerio-delta.vercel.app/chat)
-
-### 3. LocalMind — Local AI Desktop Assistant
-An in-progress personal assistant project exploring local AI and desktop workflows.
-
-- Experimenting with local model integration through **Ollama**
-- Exploring natural-language interaction with useful PC workflows
-- Priorities: local-first operation, practical tool execution, and clear permission boundaries
-
-**Status:** Early development / architecture and MVP work.
-
-### 4. [AI Phone Receptionist](https://github.com/maazcrafts/AI-Phone-Receptionist)
-An AI receptionist concept designed to answer calls and collect caller details conversationally, with Hinglish interaction and local-model experimentation.
-
-### 5. QuickStitch / QuickInfo
-A product and UI engineering project focused on translating a defined interface into a responsive, functional web experience.
-
-- Next.js, TypeScript, Tailwind CSS
-- Component-based frontend implementation
-- Responsive layouts and functional interactions
-- Focus on preserving the supplied design as the source of truth
-
-**Status:** In development.
-
-### 6. Finora — Personal Finance App
-A finance-tracking project exploring transaction management, summaries, visual analytics, voice-based transaction entry, and AI assistance.
-
-### 7. [Alfiya Mehendi](https://github.com/maazcrafts/Alfiya-Mehendi)
-A booking and commerce website for mehendi services and related products.
-
-- Booking requests with date/time selection and admin approval
-- Booking history and cancellation flow
-- Supabase-backed data and authentication
-- Service and product-oriented business workflow
-
-[Open live website](https://alfiya-mehendi-nine.vercel.app)
-
-### 8. Machine Learning Projects
-Introductory prediction applications using **Logistic Regression**, including diabetes prediction and credit-risk prediction, with model evaluation and interactive Streamlit interfaces.
+**What I’m drawn to**
+- AI products with human review and clear boundaries
+- Full-stack applications that solve practical problems
+- Real-time, privacy-aware, and multi-user systems
+- Turning ambitious ideas into testable, usable products
 
 ---
 
+## ⚡ What I’m Building
+
+<table>
+<tr>
+<td width="50%" valign="top">
+### 🏥 Clinical AI · SaaS
+**AI Hospital Discharge Summary Generator**
+A multi-hospital workflow for turning encounter documents, optional audio, and clinician notes into a structured discharge-summary draft.
+**Stack:** Next.js · TypeScript · FastAPI · PostgreSQL
+**Status:** In progress — encounter workflow, tenant-aware foundation, and AI-generation architecture.
+</td>
+<td width="50%" valign="top">
+### 🧠 Local AI · Desktop
+**LocalMind**
+A personal desktop-assistant experiment exploring local models and natural-language interaction with useful PC workflows.
+**Stack:** Python · Ollama · Linux
+**Status:** Architecture and MVP exploration.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+### 💬 Real-time · Communication
+**[Aerio](https://github.com/maazcrafts/Aerio)**
+A messaging product built around real-time conversations, mobile access, and private communication.
+**Stack:** Node.js · Socket.IO · PostgreSQL · React Native
+[↗ Open live app](https://aerio-delta.vercel.app/chat)
+</td>
+<td width="50%" valign="top">
+### ☎️ AI · Voice
+**[AI Phone Receptionist](https://github.com/maazcrafts/AI-Phone-Receptionist)**
+A conversational receptionist concept for answering calls and collecting caller details, with Hinglish interaction and local-model experiments.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+### 🧵 Product · Frontend Engineering
+**QuickStitch / QuickInfo**
+A responsive web experience built from a defined UI source of truth, emphasizing faithful implementation and functional interactions.
+**Stack:** Next.js · TypeScript · Tailwind CSS
+</td>
+<td width="50%" valign="top">
+### 💸 Fintech · Personal Tools
+**Finora**
+A personal-finance project exploring transaction tracking, analytics, voice-based entry, and AI-assisted workflows.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+### 🌿 Small Business · Full Stack
+**[Alfiya Mehendi](https://github.com/maazcrafts/Alfiya-Mehendi)**
+A booking and commerce website for mehendi services and products, with booking requests, admin approval, and a Supabase-backed workflow.
+[↗ Visit live website](https://alfiya-mehendi-nine.vercel.app)
+</td>
+<td width="50%" valign="top">
+### 📊 Machine Learning · Applied
+**Prediction Projects**
+Introductory ML applications for diabetes and credit-risk prediction, built with Logistic Regression and interactive Streamlit interfaces.
+</td>
+</tr>
+</table>
+
+---
+
+## 🧭 My Build Loop
+<div align="center">
+**01 · Understand** → **02 · Design** → **03 · Build** → **04 · Test** → **05 · Iterate**
+<br/><sub>From problem statement to working product—one deliberate step at a time.</sub>
+</div>
+
+---
+
+## 🛠️ My Toolkit
+<div align="center">
+**Frontend** · React · Next.js · TypeScript · JavaScript · React Native · Tailwind CSS  
+**Backend & Data** · Node.js · FastAPI · Python · PostgreSQL · SQLAlchemy · Supabase · REST APIs  
+**AI & Automation** · LLM workflows · Ollama · Streamlit · prompt design · local-model experiments  
+**Tools & Delivery** · Git · GitHub · Docker · Linux · Vercel · Render · VS Code
+</div>
+
+---
 ## Tech Stack
 
 <div align="center">
