@@ -118,12 +118,12 @@ Introductory diabetes and credit-risk prediction applications using Logistic Reg
 
 | DISCIPLINE | TECHNOLOGIES |
 |:--|:--|
-| **Frontend** | React · Next.js · TypeScript · JavaScript · React Native · Tailwind CSS |
-| **Backend** | Node.js · FastAPI · Python · REST APIs · Socket.IO |
-| **Data** | PostgreSQL · SQL · SQLAlchemy · Supabase |
+| **Frontend** | HTML · CSS · JavaScript · TypeScript · React · Next.js · React Native · Vite · Tailwind CSS |
+| **Backend** | Node.js · Express.js · FastAPI · Python · REST APIs · Socket.IO |
+| **Databases** | PostgreSQL · MySQL · SQL · SQLAlchemy · Supabase · Firebase |
 | **AI & ML** | LLM application workflows · Ollama · Streamlit · Logistic Regression |
-| **Tools** | Git · GitHub · Docker · Linux · Vercel · Render · VS Code |
-| **Foundations** | C++ · OOP · Java fundamentals |
+| **Tools & Deployment** | Git · GitHub · Docker · Linux · Vercel · Render · VS Code |
+| **Programming & CS** | C++ · Java · OOP · Data Structures & Algorithms fundamentals |
 
 ## HOW I BUILD
 
@@ -143,18 +143,33 @@ Introductory diabetes and credit-risk prediction applications using Logistic Reg
 
 <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827" alt="JavaScript"/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=111827" alt="React"/>
+<img src="https://img.shields.io/badge/Next.js-111111?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
 <img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=111827" alt="React Native"/>
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+<img src="https://img.shields.io/badge/Express.js-111111?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
 <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=111827" alt="Supabase"/>
+<img src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase"/>
 <img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white" alt="Socket.IO"/>
+<img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/>
 <img src="https://img.shields.io/badge/Ollama-111111?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=111827" alt="Linux"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+<img src="https://img.shields.io/badge/Vercel-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=111827" alt="Render"/>
 
 </div>
 
@@ -164,11 +179,12 @@ Introductory diabetes and credit-risk prediction applications using Logistic Reg
 
 <div align="center">
 
-<a href="https://github.com/maazcrafts"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=maazcrafts&theme=github_dark" width="100%" alt="GitHub statistics"/></a>
-
-<br/>
-
-<a href="https://github.com/maazcrafts"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=maazcrafts&theme=github_dark" width="100%" alt="Languages used across repositories"/></a>
+<a href="https://github.com/maazcrafts">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=maazcrafts&theme=github_dark" width="49%" alt="GitHub statistics"/>
+</a>
+<a href="https://github.com/maazcrafts">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=maazcrafts&theme=github_dark" width="49%" alt="Languages used across repositories"/>
+</a>
 
 <br/>
 
